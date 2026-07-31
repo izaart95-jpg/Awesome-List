@@ -776,27 +776,7 @@ Comparison with other proxies:
 
 Modern LLMs can be integrated directly into RE tools via MCP (Model Context Protocol), enabling AI agents to interact with the disassembler database — list functions, run decompilation, rename variables, and add comments programmatically.
 
-```
-Setup (Ghidra + GhidraMCP):
-  1. Install Ghidra 11.3+
-  2. Install GhidraMCP plugin: https://github.com/LaurieWired/GhidraMCP
-  3. Connect an MCP client (5ire, Claude, etc.) with an LLM API key
-  4. Load binary in Ghidra → start MCP server from Ghidra plugin
-
-AI-assisted tasks that work well:
-  - Rename FUN_* functions with descriptive names based on decompiled code
-  - Rename local variables and parameters to meaningful identifiers
-  - Summarize what a function does in plain language
-  - Identify anti-debug patterns and explain how they work
-  - Explain a complex algorithm (sort, hash, crypto) from decompiled output
-
-Limitations (as of 2025):
-  - Complex multi-function requests often partially fail
-  - AI output must be manually verified — errors are common
-  - Large-scale bulk renaming is unreliable
-  - Treat as an assistant, not an authority
-  - IDA Pro also has MCP-compatible server available
-```
+For more details goto [RE MCP GUIDE](reverse-engineering-mcp.md)
 
 ---
 
