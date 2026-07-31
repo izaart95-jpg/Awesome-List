@@ -58,6 +58,7 @@
 | [Bootable USB Tools](security/bootable-usb-tools.md) | Rufus, Ventoy, BalenaEtcher |
 | [DHCP Attacks](security/network-security-dhcp-attacks.md) | DHCP Attacks & Mitigation Guide |
 | [FingerprintJS](security/fingerprintjs.md) | Browser fingerprinting — signals, spoofing, anti-fingerprint defenses |
+| [RE MCP GUIDE](security/reverse-engineering-mcp.md) | Automated Reverse Engineering — MCP servers, AI LLM's |
 
 ### IoT
 | Document | Description |
@@ -174,7 +175,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Documents** | 108 |
+| **Total Documents** | 109 |
 | **Categories** | 18 |
 
 ---
